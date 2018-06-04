@@ -26,3 +26,8 @@ If all the dependencies are installed correctly, you should be able to generate 
 ```
 ./build.pl
 ```
+
+# Notes/Acknowledgements
+
+The CSS stylesheets were copied a few years ago from LinkedIn, from its now-defunct "Resume Builder" feature. LinkedIn still has an option to export a user profile as a resume-like PDF, but the functionality is more limited and the CSS stylesheets no longer seem to be publicly accessible.
+
