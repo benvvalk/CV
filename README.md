@@ -4,7 +4,7 @@ This repo contains the source files for my Curriculum Vitae, and instructions fo
 
 # Pregenerated Outputs
 
-As regenerating the PDF always seems to lead to a lot of fiddling with formatting, I have saved pregenerated HTML and PDF outputs in the `pregenerated` dir as a kindness to my future self.
+As regenerating the PDF always seems to lead to a lot of fiddling with formatting, I have saved pregenerated HTML and PDF outputs in the [pregenerated](pregenerated) directory, as a kindness to my future self.
 
 # Dependencies
 
@@ -13,16 +13,16 @@ As regenerating the PDF always seems to lead to a lot of fiddling with formattin
   * constant::boolean
   * XML::Writer
   * BibTeX::Parser
-* (wkhtmltopdf)[https://wkhtmltopdf.org/] to convert HTML version of CV to PDF.  The last time I generated my CV, I used `wkhtmltopdf` version 0.12.4 from the `Nix` package manager.
+* [wkhtmltopdf](https://wkhtmltopdf.org/) to convert HTML version of CV to PDF.  NB: The last time I generated my CV, I used `wkhtmltopdf` version 0.12.4 from the `Nix` package repository.
 
 # Source Files
 
-* [cv.html.template]: edit this file to update the contents of the CV (e.g. work experience)
-* [publications.bib]: edit this file to update the list of publications
+* [cv.html.template](cv.html.template): edit this file to update the contents of the CV (e.g. work experience)
+* [publications.bib](publications.bib): edit this file to update the list of publications
 
-# Building the PDF
+# Building the HTML and PDF Files
 
-If all the dependencies are installed correctly, you should be able to generate the HTML and PDF files (`cv.html` and `cv.pdf`) by running:
+If all the dependencies are installed correctly, you should be able to generate the output HTML and PDF files (`cv.html` and `cv.pdf`) by running:
 ```
 ./build.pl
 ```
