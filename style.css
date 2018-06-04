@@ -1,0 +1,1389 @@
+html, body {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+html {
+    font-size: 100.01%;
+}
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, pre, a, abbr, acronym, address, code, del, dfn, em, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.section.educations div {
+	overflow: hidden;
+}
+.section.positions div {
+	overflow: hidden;
+}
+.section.publications div {
+	overflow: hidden;
+}
+blockquote, q {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    quotes: "" "";
+    vertical-align: baseline;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+}
+th, td, caption {
+    border: 0 none;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    vertical-align: middle;
+}
+table {
+    border: 0 none;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+a img {
+    border: medium none;
+}
+body {
+    font-family: Georgia;
+    font-size: 10px;
+}
+a {
+    color: #006699;
+}
+#wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0 30px;
+    width: 1100px;
+}
+.site-header {
+    border-bottom: 1px solid #CCCCCC;
+    clear: both;
+    height: 55px;
+    margin: 40px auto;
+    padding: 0 15px;
+    width: 1100px;
+}
+.site-header .in-logo {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -162px transparent;
+    float: left;
+    height: 40px;
+    width: 40px;
+}
+.site-header h1 {
+    float: left;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.site-header h1 a {
+    color: #424242;
+    text-decoration: none;
+}
+.site-header h1 a:hover {
+    color: #006699;
+}
+.site-header #nav {
+    float: right;
+    list-style-type: none;
+}
+.site-header #nav li {
+    border-right: 1px solid #CCCCCC;
+    display: block;
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 12px;
+    position: relative;
+    top: 25px;
+}
+.site-header #nav li a {
+    color: #33394C;
+    text-decoration: none;
+}
+.site-header #nav li a:hover {
+    color: #006699;
+}
+.site-header #nav li.nav-home {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -580px transparent;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+.site-header #nav li.nav-new-resume {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -220px transparent;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+.site-header #nav li.nav-my-resumes {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -616px transparent;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+.site-header #nav li.nav-faq {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -652px transparent;
+    border-right: 0 none;
+    margin-left: 10px;
+    padding-left: 25px;
+}
+.user {
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    margin-top: 12px;
+}
+.user a {
+    text-decoration: none;
+}
+.user a:hover {
+    text-decoration: underline;
+}
+.user .username {
+    margin-right: 15px;
+}
+.tooltip {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -20px transparent;
+    color: #FFFFFF;
+    display: none;
+    font-family: "Lucida Grande","bitstream vera sans","trebuchet ms",sans-serif,verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    height: 70px;
+    line-height: 22px;
+    margin: 0;
+    padding: 15px 25px 35px;
+    text-align: left;
+    width: 160px;
+}
+.tooltip a {
+    color: #999999 !important;
+}
+.rearrange img {
+    display: block;
+}
+.overlay {
+    -moz-border-radius: 6px 6px 6px 6px;
+    -moz-box-shadow: 0 0 50px 0 #CCCCCC;
+    background-color: #FFFFFF;
+    border: 2px solid #333333;
+    display: none;
+    font-size: 12px;
+    opacity: 0.9;
+    padding: 15px;
+    text-align: left;
+    width: 350px;
+    z-index: 10000;
+}
+.overlay h2 {
+    border-bottom: 1px solid #333333;
+    font-size: 20px;
+    margin: 0 0 20px;
+    padding: 10px 0 10px 25px;
+}
+.overlay p {
+    margin: 20px 0;
+}
+.overlay #confirm-text {
+    padding: 20px;
+    text-align: center;
+}
+.overlay .confirm-buttons {
+    text-align: center;
+}
+.overlay a.close {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -914px transparent;
+    cursor: pointer;
+    height: 35px;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    width: 35px;
+}
+#confirm-overlay {
+    opacity: 1;
+}
+.notice {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 8px -835px #B0E57C;
+    color: #006600;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    padding-left: 30px;
+    width: 100%;
+}
+.error {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 8px -871px #FFAEAE;
+    color: #990000;
+    display: block;
+    font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    padding-left: 30px;
+    width: 100%;
+}
+#loading {
+    text-align: center;
+}
+#loading .spinner {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+#built-with {
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    margin: 40px auto;
+    padding-top: 15px;
+    text-align: center;
+    width: 1100px;
+}
+#built-with .footer-link {
+    border-right: 1px solid #CCCCCC;
+    padding: 0 10px;
+}
+#built-with .footer-link.last {
+    border: 0 none;
+}
+.clear {
+    clear: both;
+}
+.view-clear {
+    clear: both;
+    height: 10px;
+}
+.new-resume {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -222px transparent;
+    height: 16px;
+    width: 16px;
+}
+.preview-clean {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -20px transparent;
+}
+.preview-blue {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -120px transparent;
+}
+.preview-gray {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -220px transparent;
+}
+.preview-classic {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -320px transparent;
+}
+.preview-slice {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -420px transparent;
+}
+.preview-orange {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -520px transparent;
+}
+.preview-twocol {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -620px transparent;
+}
+.preview-white {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -720px transparent;
+}
+.preview-business {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -820px transparent;
+}
+.preview-executive {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -920px transparent;
+}
+.preview-law {
+    background: url("/images/../images/previews.png?1294713830") no-repeat scroll 0 -1020px transparent;
+}
+.hidden {
+    display: none;
+}
+#share-privacy {
+    width: 400px;
+}
+#share-privacy .spinner {
+    display: none;
+    margin-left: 15px;
+}
+#share-privacy .spinner-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 25px;
+}
+#privacy {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#privacy h2 {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -496px transparent;
+}
+#privacy .url-value {
+    margin: 15px 0;
+    text-align: center;
+}
+#privacy .url-value a {
+    padding-left: 5px;
+}
+#share {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#share h2 {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -388px transparent;
+}
+#share .url-value {
+    margin: 15px 0;
+    text-align: center;
+}
+#share .url-value a {
+    padding-left: 5px;
+}
+#share #share-buttons {
+    border: 1px solid #999999;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    width: 400px;
+}
+#share #share-buttons.disabled .share-button {
+    opacity: 0.5;
+}
+#share #share-buttons .share-button {
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 5px 0;
+    text-align: center;
+    width: 132.333px;
+}
+#share #share-notice {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 7px -981px #FFFFDF;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px 30px;
+}
+.visibility-private {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-private .visibility-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -1136px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.visibility-public {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-public .visibility-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -1208px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.visibility-with_link {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-with_link .visibility-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -1172px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.blurb {
+    color: #666666;
+    font-size: 11px;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+.visibility-text {
+    float: left;
+}
+#edit #menu {
+    border: 1px solid #CCCCCC;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto 40px;
+    padding: 0 1px;
+}
+#edit #menu .menu-edit {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -287px transparent;
+}
+#edit #menu .menu-edit.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-refresh {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -323px transparent;
+}
+#edit #menu .menu-refresh.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-preview {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -359px transparent;
+}
+#edit #menu .menu-preview.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-share {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -395px transparent;
+}
+#edit #menu .menu-share.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-sections {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -431px transparent;
+}
+#edit #menu .menu-sections.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-print {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -467px transparent;
+}
+#edit #menu .menu-print.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-privacy {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -503px transparent;
+}
+#edit #menu .menu-privacy.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu .menu-view {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 5px -539px transparent;
+}
+#edit #menu .menu-view.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#edit #menu #resume-name, #edit #menu #resume-name-h1 {
+    border-width: 0;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 0 0 0 5px;
+    width: 205px;
+}
+#edit #menu #resume-name.edit, #edit #menu #resume-name-h1.edit {
+    border-width: 1px;
+}
+#edit #menu #resume-actions {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 650px;
+}
+#edit #menu #resume-actions li {
+    float: left;
+    font-size: 11px;
+    margin-right: 5px;
+    padding-left: 28px;
+    padding-right: 10px;
+}
+#edit #menu #resume-actions li a {
+    text-decoration: none;
+}
+#edit #menu #resume-actions li a:hover {
+    text-decoration: underline;
+}
+#edit #menu #resume-interstitial, #edit #menu #resume-by {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    text-align: right;
+    width: 180px;
+}
+#edit #menu #resume-interstitial #working-img, #edit #menu #resume-by #working-img {
+    display: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+#edit #menu #resume-interstitial #working-text, #edit #menu #resume-by #working-text {
+    color: #CCCCCC;
+    font-size: 10px;
+}
+#edit #menu #resume-interstitial #working-text.active, #edit #menu #resume-by #working-text.active {
+    color: #000000;
+}
+#edit #templates {
+    border-right: 1px solid #CCCCCC;
+    float: left;
+    margin-right: 35px;
+    overflow: hidden;
+    padding-right: 30px;
+    text-align: center;
+    width: 110px;
+}
+#edit #templates a {
+    text-decoration: none;
+}
+#edit #templates h2 {
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+#edit #templates ul {
+    list-style-type: none;
+}
+#edit #templates a.pick-template {
+    border: 1px solid #DDDDDD;
+    display: block;
+    height: 100px;
+    margin: 15px 0;
+    opacity: 0.6;
+    padding-top: 10px;
+    text-align: center;
+    width: 120px;
+}
+#edit #templates a.pick-template .previewName {
+    display: block;
+    font-size: 10px;
+    padding-top: 3px;
+}
+#edit #templates a.pick-template .previewImg {
+    height: 80px;
+    margin: 0 auto;
+    width: 100px;
+}
+#edit #templates a.pick-template:hover {
+    border: 1px solid #006699;
+    opacity: 1;
+}
+#edit #templates a.pick-template.selected {
+    border: 1px solid #006699;
+    opacity: 1;
+}
+#edit .section-outline-header {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#edit .section-outline-header h1 {
+    color: #000000;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 0 0 20px;
+}
+#edit .section-outline-header p {
+    color: #444444;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 22px;
+    margin: 25px 0 40px;
+}
+#edit .section-outline-header .move-section-icon, #edit .section-outline-header .hide-section-icon, #edit .section-outline-header .expand-section-icon {
+    margin: 0 0 0 3px;
+    padding: 2px 9px 9px;
+}
+#edit .section-outline-header .move-section-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -766px transparent;
+}
+#edit .section-outline-header .hide-section-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -804px transparent;
+}
+#edit .section-outline-header .expand-section-icon {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -690px transparent;
+}
+#edit #outline {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    list-style-type: none;
+    margin: 0 auto;
+    width: 480px;
+}
+#edit #outline li {
+    background-image: -moz-linear-gradient(center top , #FFFFFF 46%, #EFEFEF 150%);
+    border: 1px solid #CCCCCC;
+    line-height: 30px;
+    margin: 5px 0;
+    padding-left: 30px;
+    width: 400px;
+}
+#edit #outline li.ui-state-hover {
+    border: 1px solid #FBCB09;
+}
+#edit #outline ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: -15px;
+    padding-left: 5px;
+}
+#edit #outline ul li {
+    padding-left: 10px;
+    width: 350px;
+}
+#edit #outline .ui-state-default {
+    height: 30px;
+}
+#edit #outline .hidden-section {
+    opacity: 0.3;
+}
+#edit #outline .ui-treeList-toggle {
+    cursor: pointer;
+    height: 18px;
+    left: -24px;
+    position: relative;
+    top: -24px;
+    width: 18px;
+}
+#edit #outline .ui-icon-plus {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -690px transparent;
+}
+#edit #outline .ui-icon-minus {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -728px transparent;
+}
+#edit #outline .ui-sortable-placeholder {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px dashed #CCCCCC;
+    height: 30px;
+}
+#edit #outline .move-section, #edit #outline .hide-section {
+    cursor: pointer;
+    float: right;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 6px;
+    width: 18px;
+}
+#edit #outline .move-section {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -766px transparent;
+}
+#edit #outline .hide-section {
+    background: url("/images/../images/icons.png?1294714524") no-repeat scroll 0 -804px transparent;
+}
+#edit #customize {
+    float: left;
+    width: 900px;
+}
+#faq {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#faq h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 30px 0 20px;
+}
+#faq .question h2 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#faq .question p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 3px;
+    width: 700px;
+}
+#home {
+    color: #656565;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 22px;
+    margin: 20px auto;
+    width: 950px;
+}
+#home .splash {
+    background-image: -moz-linear-gradient(center top , #FFFFFF 68%, #EFEFEF 150%);
+    float: left;
+    height: 303px;
+    margin: 0 auto;
+    padding: 55px 0 0 40px;
+    width: 910px;
+}
+#home .splash h1 {
+    color: #000000;
+    font-size: 38px;
+    font-weight: bold;
+}
+#home .splash .blurb {
+    font-size: 15px;
+    margin: 30px 0 50px;
+    width: 500px;
+}
+#home .splash .get-started {
+    display: block;
+    float: left;
+    font-size: 15px;
+    line-height: 60px;
+    margin-left: 18px;
+}
+#home .splash .button-link {
+    float: left;
+}
+#home .splash .action-button {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 1px 1px 8px 0 #CCCCCC;
+    background-image: -moz-linear-gradient(center top , #FFFFFF 46%, #EFEFEF 95%);
+    border: 1px solid #CCCCCC;
+    height: 60px;
+    width: 280px;
+}
+#home .splash .action-button .button-logo {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -162px transparent;
+    height: 40px;
+    width: 40px;
+}
+#home .resume-sample {
+    background: url("/images/../images/home.png?1294713828") no-repeat scroll 0 -745px transparent;
+    float: left;
+    height: 400px;
+    margin-left: -400px;
+    margin-top: -12px;
+    width: 400px;
+}
+#home a.button-link {
+    color: #000000;
+    text-decoration: none;
+}
+#home a.button-link:hover {
+    color: #006699;
+}
+#home .action-button .button-logo {
+    float: left;
+    margin: 10px 15px;
+}
+#home .action-button .button-text {
+    display: block;
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 60px;
+    margin-left: 3px;
+}
+#home .triptych {
+    clear: both;
+    height: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 840px;
+}
+#home .triptych .step {
+    float: left;
+    font-size: 15px;
+    height: 200px;
+    margin: 0 40px;
+    width: 200px;
+}
+#home .triptych .step .img-container {
+    height: 200px;
+    line-height: 200px;
+}
+#home .triptych .step .step-template {
+    background: url("/images/../images/home.png?1294713828") no-repeat scroll 0 -60px transparent;
+}
+#home .triptych .step .step-customize {
+    background: url("/images/../images/home.png?1294713828") no-repeat scroll 0 -288px transparent;
+}
+#home .triptych .step .step-share {
+    background: url("/images/../images/home.png?1294713828") no-repeat scroll 0 -491px transparent;
+}
+#home .triptych .step img {
+    vertical-align: middle;
+}
+#home .triptych .step a {
+    text-decoration: none;
+}
+#home .triptych .step a:hover {
+    text-decoration: underline;
+}
+#home .triptych .step .step-label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    width: 200px;
+}
+#home .triptych .step p {
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 10px;
+    text-align: justify;
+}
+#home #samples {
+    font-size: 15px;
+    text-align: center;
+}
+#home #get-moving {
+    margin: 40px auto;
+    width: 305px;
+}
+#home #get-moving .action-button {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 1px 1px 8px 0 #CCCCCC;
+    background-image: -moz-linear-gradient(center top , #FFFFFF 46%, #EFEFEF 95%);
+    border: 1px solid #CCCCCC;
+    height: 60px;
+    width: 305px;
+}
+#home #get-moving .button-logo {
+    margin-top: 21px;
+}
+#home #blog, #home #stats {
+    border-top: 1px solid #CCCCCC;
+    float: left;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+#home #blog h2, #home #stats h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#home #blog {
+    border-right: 1px solid #CCCCCC;
+    padding-right: 15px;
+    width: 600px;
+}
+#home #blog .post {
+    border-bottom: 1px dotted #CCCCCC;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 10px 0;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+#home #blog .post.last {
+    border: medium none !important;
+}
+#home #blog .post-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+#home #blog .post-contents {
+    font-size: 11px;
+    height: 40px;
+    overflow: hidden;
+}
+#home #blog .post-date {
+    float: left;
+    font-size: 10px;
+    margin-right: 20px;
+}
+#home #blog .post-comments {
+    float: right;
+    font-size: 10px;
+}
+#home #blog ol, #home #blog ul {
+    padding: 10px 0 10px 30px;
+}
+#home #blog h2 {
+    display: inline;
+}
+#home #blog .from-the-blog {
+    padding-left: 10px;
+}
+#home #stats {
+    padding-left: 10px;
+    text-align: center;
+    width: 310px;
+}
+#home #stats h2 {
+    margin-bottom: 30px;
+    text-align: left;
+}
+#home #stats .count {
+    margin: 20px 0;
+}
+#home #stats .label {
+    color: #999999;
+    font-size: 40px;
+    line-height: 24px;
+}
+#home #stats .value {
+    color: #333333;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+}
+#share-privacy {
+    width: 400px;
+}
+#share-privacy .spinner {
+    display: none;
+    margin-left: 15px;
+}
+#share-privacy .spinner-text {
+    color: #999999;
+    font-size: 10px;
+    line-height: 25px;
+}
+#privacy {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#privacy h2 {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -496px transparent;
+}
+#privacy .url-value {
+    margin: 15px 0;
+    text-align: center;
+}
+#privacy .url-value a {
+    padding-left: 5px;
+}
+#share {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+#share h2 {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -388px transparent;
+}
+#share .url-value {
+    margin: 15px 0;
+    text-align: center;
+}
+#share .url-value a {
+    padding-left: 5px;
+}
+#share #share-buttons {
+    border: 1px solid #999999;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    width: 400px;
+}
+#share #share-buttons.disabled .share-button {
+    opacity: 0.5;
+}
+#share #share-buttons .share-button {
+    float: left;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 5px 0;
+    text-align: center;
+    width: 132.333px;
+}
+#share #share-notice {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 7px -981px #FFFFDF;
+    border-bottom: 1px solid #CCCCCC;
+    font-size: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px 30px;
+}
+.visibility-private {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-private .visibility-icon {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -1136px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.visibility-public {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-public .visibility-icon {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -1208px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.visibility-with_link {
+    height: 45px;
+    margin-left: 15px;
+}
+.visibility-with_link .visibility-icon {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -1172px transparent;
+    float: left;
+    height: 18px;
+    width: 16px;
+}
+.blurb {
+    color: #666666;
+    font-size: 11px;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+.visibility-text {
+    float: left;
+}
+#resumes {
+    font-family: Arial,Helvetica,sans-serif;
+    margin-bottom: 20px;
+}
+#resumes h1 {
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px;
+}
+#resumes .privacy {
+    line-height: 12px !important;
+}
+#resumes .privacy div {
+    height: 25px;
+}
+#resumes .privacy .privacy-link {
+    margin-left: -10px;
+}
+#resumes .privacy .visibility-text {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -20px transparent;
+    color: #FFFFFF;
+    display: none;
+    font-family: "Lucida Grande","bitstream vera sans","trebuchet ms",sans-serif,verdana;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    height: 70px;
+    line-height: 22px;
+    margin: 0;
+    padding: 15px 25px 35px;
+    text-align: left;
+    width: 160px;
+}
+#resumes .privacy .visibility-text a {
+    color: #999999 !important;
+}
+#resumes .privacy .visibility-text .blurb {
+    color: #BBBBBB;
+    padding-left: 0;
+    padding-top: 10px;
+}
+#resumes #no-resumes {
+    clear: both;
+}
+#resumes #no-resumes .zero-resumes {
+    font-size: 20px;
+    padding: 40px 0 15px;
+    text-align: center;
+}
+#resumes #no-resumes .create-new-link {
+    -moz-border-radius: 5px 5px 5px 5px;
+    -moz-box-shadow: 1px 1px 8px 0 #CCCCCC;
+    background-image: -moz-linear-gradient(center top , #FFFFFF 46%, #EFEFEF 95%);
+    border: 1px solid #CCCCCC;
+    color: #000000;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    height: 45px;
+    line-height: 45px;
+    margin: 0 auto;
+    text-decoration: none;
+    width: 275px;
+}
+#resumes #no-resumes .create-new-link:hover {
+    color: #006699;
+}
+#resumes #no-resumes .create-new-img {
+    float: left;
+    margin: 12px 12px 0;
+}
+#resumes #no-resumes .create-new-text {
+    float: left;
+}
+#resumes .new {
+    float: left;
+    font-size: 11px;
+    line-height: 50px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+#resumes .new a {
+    text-decoration: none;
+}
+#resumes .new .create-new-img {
+    float: left;
+}
+#resumes .new .create-new-text {
+    float: left;
+    line-height: 18px;
+    padding-left: 5px;
+}
+#resumes .resumeList {
+    clear: both;
+    margin-top: 35px;
+    width: 100%;
+}
+#resumes .resumeList tr.even {
+    background-color: #FAFAFE;
+}
+#resumes .resumeList th {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+}
+#resumes .resumeList th.name {
+    padding-left: 20px;
+    text-align: left;
+}
+#resumes .resumeList td {
+    border-top: 1px solid #CCCCCC;
+    font-size: 11px;
+    height: 140px;
+    line-height: 140px;
+    text-align: center;
+}
+#resumes .resumeList td a {
+    text-decoration: none;
+}
+#resumes .resumeList td a:hover {
+    text-decoration: underline;
+}
+#resumes .resumeList td.name {
+    font-size: 12px;
+    padding-left: 20px;
+    text-align: left;
+}
+#resumes .resumeList td.template a {
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    display: block;
+    height: 100px;
+    line-height: 15px;
+    margin: 15px 0 15px 60px;
+    padding-top: 10px;
+    text-align: center;
+    width: 120px;
+}
+#resumes .resumeList td.template a .previewName {
+    display: block;
+    font-size: 10px;
+    padding-top: 3px;
+}
+#resumes .resumeList td.template a .previewImg {
+    height: 80px;
+    margin: 0 auto;
+    width: 100px;
+}
+#resumes .resumeList td.actions {
+    width: 150px;
+}
+#resumes .resumeList td.actions a {
+    display: block;
+    line-height: 22px;
+    margin-left: 55px;
+    text-align: left;
+    text-decoration: none;
+}
+#resumes .resumeList td.actions a:hover {
+    text-decoration: underline;
+}
+#resumes .resumeList td.actions .manage-edit {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -1066px transparent;
+    height: 16px;
+    line-height: 16px;
+    margin: 5px 0;
+    padding-left: 22px;
+    width: 16px;
+}
+#resumes .resumeList td.actions .manage-share {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -402px transparent;
+    height: 16px;
+    line-height: 16px;
+    margin: 5px 0;
+    padding-left: 22px;
+    width: 16px;
+}
+#resumes .resumeList td.actions .manage-print {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -474px transparent;
+    height: 16px;
+    line-height: 16px;
+    margin: 5px 0;
+    padding-left: 22px;
+    width: 16px;
+}
+#resumes .resumeList td.actions .manage-delete {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 0 -1102px transparent;
+    height: 16px;
+    line-height: 16px;
+    margin: 5px 0;
+    padding-left: 22px;
+    width: 16px;
+}
+#view #menu {
+    border-bottom: 1px solid #CCCCCC;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto 30px;
+    padding: 10px 1px 3px;
+}
+#view #menu .menu-edit {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -287px transparent;
+}
+#view #menu .menu-edit.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-refresh {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -323px transparent;
+}
+#view #menu .menu-refresh.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-preview {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -359px transparent;
+}
+#view #menu .menu-preview.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-share {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -395px transparent;
+}
+#view #menu .menu-share.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-sections {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -431px transparent;
+}
+#view #menu .menu-sections.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-print {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -467px transparent;
+}
+#view #menu .menu-print.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-privacy {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -503px transparent;
+}
+#view #menu .menu-privacy.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu .menu-view {
+    background: url("/images/../images/icons.png?1294713833") no-repeat scroll 5px -539px transparent;
+}
+#view #menu .menu-view.selected {
+    border: 1px solid #006699;
+    position: relative;
+    top: -1px;
+}
+#view #menu #resume-name, #view #menu #resume-name-h1 {
+    border-width: 0;
+    display: block;
+    float: left;
+    height: 20px;
+    margin-right: 25px;
+    margin-top: 5px;
+    padding: 0 0 0 5px;
+    width: 400px;
+}
+#view #menu #resume-name.edit, #view #menu #resume-name-h1.edit {
+    border-width: 1px;
+}
+#view #menu #resume-actions {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 380px;
+}
+#view #menu #resume-actions li {
+    float: left;
+    font-size: 11px;
+    margin-right: 5px;
+    padding-left: 28px;
+    padding-right: 10px;
+}
+#view #menu #resume-actions li a {
+    text-decoration: none;
+}
+#view #menu #resume-actions li a:hover {
+    text-decoration: underline;
+}
+#view #menu #resume-interstitial, #view #menu #resume-by {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 25px;
+    text-align: right;
+    width: 180px;
+}
+#view #menu #resume-interstitial #working-img, #view #menu #resume-by #working-img {
+    display: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+#view #menu #resume-interstitial #working-text, #view #menu #resume-by #working-text {
+    color: #CCCCCC;
+    font-size: 10px;
+}
+#view #menu #resume-interstitial #working-text.active, #view #menu #resume-by #working-text.active {
+    color: #000000;
+}
+#view #menu #resume-name-h1 {
+    color: #424242;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+    margin-top: 0;
+}
+#view #menu #resume-by {
+    font-size: 11px;
+}
+#view #menu #resume-by a {
+    text-decoration: none;
+}
+#view #menu #resume-by a:hover {
+    text-decoration: underline;
+}
